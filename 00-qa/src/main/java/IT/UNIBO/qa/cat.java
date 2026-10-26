@@ -30,7 +30,7 @@ public class Cat {
     }
 
     public int hasSameColor(Cat cat) {
-        if (color.equals(cat.color)) { //.equals() confronta il testo delle due stringhe.
+        if (color.equals(cat.color)) { // .equals() confronta il testo delle due stringhe.
             return 1;
         } else {
             return 0;
@@ -41,7 +41,7 @@ public class Cat {
         return name;
     }
 
-    public String getBreed() {
+    public String getBreed() { //il campo è 'final' ma non stiamo modificando un valore, sto solo faendo una 'get' ed è permesso.
         return breed;
     }
 
