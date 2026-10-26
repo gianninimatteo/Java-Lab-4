@@ -3,7 +3,7 @@
 ## Fase 1
 
 * Analizzare la classe `cat`.
-* Verificare se la classe è valida, ad esempio eseguendo la build con gradle e verificando che un file `.class` viene effetivamente generato. Entri nella cartella dell'esercizio con cd e poi scrivi: gradlewbatcompileJava
+* Verificare se la classe è valida, ad esempio eseguendo la build con gradle e verificando che un file `.class` viene effetivamente generato. Entri nella cartella dell'esercizio con cd e poi scrivi: ./gradlew compileJava
     * La classe può essere effettivamente utilizzata senza problemi...
 * Tuttavia l’utilizzo delle corrette convenzioni è stato messo completamente da parte. Di conseguenza il codice è difficile da leggere e da capire.
 ---
