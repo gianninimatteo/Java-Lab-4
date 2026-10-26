@@ -1,6 +1,6 @@
 package it.unibo.qa;
 
-//this class describes a cat
+//Questa classe descrive un gatto
 public class Cat {
     private String name;
     private String color;
