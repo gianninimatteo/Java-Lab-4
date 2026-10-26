@@ -1,4 +1,4 @@
-package it.unibo;
+/*package it.unibo;
 
 public class Test {
     public static void main(String[] args) {
@@ -32,3 +32,4 @@ public class Test {
         System.out.println("Korat cat can't eat vegetables: " + !koratCat.canEatVegetables());
     }
 }
+*/

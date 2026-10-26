@@ -41,6 +41,10 @@ public class Cat {
         return name;
     }
 
+    public int getAge() {
+        return age;
+    }
+
     public String getBreed() { //il campo è 'final' ma non stiamo modificando un valore, sto solo faendo una 'get' ed è permesso.
         return breed;
     }
