@@ -6,7 +6,7 @@ public class Cat {
     private String color;
     private final String breed;
     private final int age;
-    private static final int  NINE = 9;
+    private static final int  NINE = 9; //costante
     public static int numberOfLives= NINE;
 
     public Cat(String name, String color, final String breed, final int age) {
