@@ -14,6 +14,7 @@ public class Student {
         this.matriculationYear = matriculationYear;
     }
 
+    //Siccome i parametri sono private i 4 metodi 'get' ci servono per LEGGERE (ma non modificare) i campi private dall'esterno della classe.
     public String getName() {
         return name;
     }

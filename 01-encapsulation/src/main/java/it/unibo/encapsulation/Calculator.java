@@ -10,6 +10,7 @@ public class Calculator {
         this.lastResult = 0;
     }
 
+    // I 2 metodi get per leggere i campi dall'esterno della classe
     public int getOperationsPerformed(){
         return this.operationsPerformed;
     }
@@ -17,6 +18,7 @@ public class Calculator {
         return this.lastResult;
     }
 
+    // Il metodo essendo private può essere richiamato solo dall'interno della classe in cui è definito.
     private double updateStatus(final double val) {
         this.lastResult = val;
         this.operationsPerformed++;
