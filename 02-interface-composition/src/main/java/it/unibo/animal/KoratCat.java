@@ -1,18 +1,15 @@
 package it.unibo.animal;
 
 public class KoratCat implements Animal {
-
-    private Diet diet  = new Carnivore();
-
     public double averageWeight() {
         return 3.5;
     }
 
    public  boolean canEatVegetables() {
-        return diet.canEatVegetables();
+        return false;
     }
     
    public boolean canEat(Animal a) {
-        return this.averageWeight() > a.averageWeight();
+        return a instanceof Squirrel; //Restituisce true se a è uno scoiattolo, false altrimenti.
     }
 }

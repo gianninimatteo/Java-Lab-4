@@ -82,5 +82,6 @@ public class Cat {
     public static void main(final String[] args) {
         Cat cat = new Cat("Kiri", "Gray", "Kor", 4);
         System.out.println(cat.meow()); 
+        System.out.println(NUMBER_OF_LIVES);
     }
 }
