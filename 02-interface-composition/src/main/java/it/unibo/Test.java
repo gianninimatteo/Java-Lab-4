@@ -1,4 +1,5 @@
-/*package it.unibo;
+package it.unibo;
+import it.unibo.animal.*; //siccome il file è fuori dalle cartelle 'animal' e 'diet' questo comando importa tutte le classi e interfacce presenti nel package 'it.unibo.animal'.
 
 public class Test {
     public static void main(String[] args) {
@@ -32,4 +33,3 @@ public class Test {
         System.out.println("Korat cat can't eat vegetables: " + !koratCat.canEatVegetables());
     }
 }
-*/

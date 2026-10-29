@@ -1,13 +1,13 @@
 package it.unibo.animal;
 
 public class SiameseCat implements Animal {
-    
+
     public double averageWeight() {
         return 5;
     }
 
    public  boolean canEatVegetables() {
-        return true;
+        return false;
     }
     
    public boolean canEat(Animal a) {
