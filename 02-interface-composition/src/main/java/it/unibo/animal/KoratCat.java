@@ -1,6 +1,7 @@
 package it.unibo.animal;
 
 public class KoratCat implements Animal {
+    
     public double averageWeight() {
         return 3.5;
     }

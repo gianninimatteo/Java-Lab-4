@@ -1,6 +1,7 @@
 package it.unibo.animal;
 
 public class SiameseCat implements Animal {
+    
     public double averageWeight() {
         return 5;
     }

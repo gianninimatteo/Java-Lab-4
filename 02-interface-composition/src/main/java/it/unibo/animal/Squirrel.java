@@ -1,6 +1,7 @@
 package it.unibo.animal;
 
 public class Squirrel implements Animal {
+    
     public double averageWeight() {
         return 1;
     }
