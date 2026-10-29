@@ -16,7 +16,7 @@ public class Test {
             (koratCat.averageWeight() > squirrel.averageWeight())
         );
 
-        System.out.println("Kangaroo can't eat calico cat: " + !kangaroo.canEat(koratCat));
+        System.out.println("Kangaroo can't eat calico cat: " + !kangaroo.canEat(koratCat)); // '!'--> negazione
         System.out.println("Kangaroo can't eat siamese cat: " + !kangaroo.canEat(siameseCat));
         System.out.println("Kangaroo can eat vegetables: " + kangaroo.canEatVegetables());
 
